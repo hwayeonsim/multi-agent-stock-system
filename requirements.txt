@@ -1,6 +1,13 @@
-requests
 pandas
+requests
+beautifulsoup4
+lxml
 sqlalchemy
 psycopg2-binary
 python-dotenv
-beautifulsoup4
+pydantic
+pytest
+pytest-mock
+black
+isort
+flake8

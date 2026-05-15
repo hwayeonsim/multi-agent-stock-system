@@ -1,8 +1,36 @@
-.venv/
+# Python
 __pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual env
+.venv/
+venv/
+
+# Env
 .env
-.DS_Store
-.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
 logs/
+*.log
+
+# Data
 data/raw/
 data/processed/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Test / cache
+.pytest_cache/
+.coverage
+
+# OS
+.DS_Store
+Thumbs.db
